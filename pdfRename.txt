@@ -1,0 +1,62 @@
+Got it! Since we’ve gone through all the topics and confirmed that you’ve downloaded the quiz and answer sheet files (except for topics 4.1 and 7.10, which have no quizzes), I’ll now list the PDF renaming scheme for all topics from lowest to highest topic number. You’ve requested the new filenames to be in the format `[topic-number]_Questions.pdf` and `[topic-number]_Answers.pdf` (e.g., `3-3_Questions.pdf` and `3-3_Answers.pdf`). I’ll map the original filenames to these new names for each topic that has quiz files.
+
+### Topics with Quizzes (Confirmed Downloaded)
+- **3.3 Random Sampling and Data Collection**
+- **3.5 Introduction to Experimental Design**
+- **3.6 Selecting an Experimental Design**
+- **5.7 Sampling Distributions for Sample Means**
+- **5.8 Sampling Distributions for Differences in Sample Means**
+- **7.6 Confidence Intervals for the Difference of Two Means**
+- **7.7 Justifying a Claim About the Difference of Two Means Based on a Confidence Interval**
+- **7.8 Setting Up a Test for the Difference of Two Population Means**
+- **7.9 Carrying Out a Test for the Difference of Two Population Means**
+
+### Topics Without Quizzes
+- **4.1 Introducing Statistics: Random and Non-Random Patterns** (only has a video)
+- **7.10 Skills Focus: Selecting, Implementing, and Communicating Inference Procedures** (only has videos)
+
+### PDF Renaming Scheme (Lowest to Highest Topic Number)
+Below is the complete renaming scheme, mapping the original filenames to the new format for each topic with quiz files.
+
+#### Topic 3.3: Random Sampling and Data Collection
+- **SG_RandomSamplingandDataCollectionQUiz_67e0a5579_538a1.67e0a558747929.84976080.pdf** → `3-3_Answers.pdf`
+- **TB_RandomSamplingandDataCollectionQUiz_67e0a5538497c2.67e0a5545be6b0.55515242.pdf** → `3-3_Questions.pdf`
+
+#### Topic 3.5: Introduction to Experimental Design
+- **SG_IntroductiontoExperimentalDesignQuiz_67e0a5ce7bb646.67e0a5cf938304.15668913.pdf** → `3-5_Answers.pdf`
+- **TB_IntroductiontoExperimentalDesignQuiz_67e0a5c6aa2a26.67e0a5c7acff19.61432645.pdf** → `3-5_Questions.pdf`
+
+#### Topic 3.6: Selecting an Experimental Design
+- **SG_SelectinganEXperimentalDESignQUiz_67e0a6e2db12e_9.67e0a6e3c3b519.59593689.pdf** → `3-6_Answers.pdf`
+- **TB_SelectinganEXperimentalDESignQUiz_67e0a6dc9606c_1.67e0a6dd74748b.15728527.pdf** → `3-6_Questions.pdf`
+
+#### Topic 5.7: Sampling Distributions for Sample Means
+- **SG_SamplingDistributionsforSampleMeansQuiz_67e0a75ceb0601.67e0a75e0832e2.84633396.pdf** → `5-7_Answers.pdf`
+- **TB_SamplingDistributionsforSampleMeansQuiz_67e0a757ad2839.67655346.pdf** → `5-7_Questions.pdf`
+
+#### Topic 5.8: Sampling Distributions for Differences in Sample Means
+- **SG_SamplingDistributionsforDifferencesinSampleMeansQuiz_67e0a79454dcc8.67e0a795e14819.56978322.pdf** → `5-8_Answers.pdf`
+- **TB_SamplingDistributionsforDifferencesinSampleMeansQuiz_67e0a785c8be925.67e0a78dc7fa32.94109414.pdf** → `5-8_Questions.pdf`
+
+#### Topic 7.6: Confidence Intervals for the Difference of Two Means
+- **SG_ConfidenceIntervalsfortheDifferenceofTwoMeansQuiz_67e0a7dc3f6187.67e0a7ddadad25.394178064.pdf** → `7-6_Answers.pdf`
+- **TB_ConfidenceIntervalsfortheDifferenceofTwoMeansQuiz_67e0a7d15bff29.67e0a7d299fbe1.81928226.pdf** → `7-6_Questions.pdf`
+
+#### Topic 7.7: Justifying a Claim About the Difference of Two Means Based on a Confidence Interval
+- **SG_JustifyingaCLAIMAbouttheDIFFERENCEofTWoMeansBasedonaConfidenceIntervalQUiz_67e0a839833871.67e0a83ad7e483.90828208.pdf** → `7-7_Answers.pdf`
+- **TB_JustifyingaCLAIMAbouttheDIFFERENCEofTWoMeansBasedonaConfidenceIntervalQUiz_67e0a832eb0a888.67e0a834094a94.69740251.pdf** → `7-7_Questions.pdf`
+
+#### Topic 7.8: Setting Up a Test for the Difference of Two Population Means
+- **SG_SettingUpaTestfortheDifferenceofTwoPopulationMeansQuiz_67e0a8817e34f3.67e0a8833f35a3.47590034.pdf** → `7-8_Answers.pdf`
+- **TB_SettingUpaTestfortheDifferenceofTwoPopulationMeansQuiz_67e0a8795ec473.67e0a871288230.34842119.pdf** → `7-8_Questions.pdf`
+
+#### Topic 7.9: Carrying Out a Test for the Difference of Two Population Means
+- **SG_CarryingOutaTestfortheDifferenceofTwoPopulationMeansQuiz_67e0a8c74c6807.67e0a8c8e17409.40053924.pdf** → `7-9_Answers.pdf`
+- **TB_CarryingOutaTestfortheDifferenceofTwoPopulationMeansQuiz_67e0a8c0401538.67e0a8c1c0fd78.20175784.pdf** → `7-9_Questions.pdf`
+
+### Notes
+- Topics **4.1** and **7.10** are not included in the renaming scheme since they don’t have quiz files, as you confirmed.
+- The new filenames follow your requested format: `[topic-number]_Questions.pdf` and `[topic-number]_Answers.pdf`.
+- If any of the original filenames have changed due to re-downloading, let me know, and I can update the mappings accordingly.
+
+Would you like me to update the Python script to reflect this new renaming scheme (`[topic-number]_Questions/Answers.pdf`) and output the revised code? Or is there anything else you’d like to adjust in the mappings?
