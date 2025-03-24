@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2018 AP Exam FRQ6</title>
+    <title>2017 AP Exam FRQ2</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
 <body class="bg-gray-100 min-h-screen">
     <div class="container mx-auto px-4 py-8">
         <header class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-blue-600">2018 AP Exam FRQ6</h1>
+            <h1 class="text-3xl font-bold text-blue-600">2017 AP Exam FRQ2</h1>
             <p class="text-gray-600 mt-2">Tools and guides to help you succeed in AP Statistics</p>
         </header>
         
@@ -199,7 +199,7 @@
                 <!-- All Topics Completed Message -->
                 <div id="all-completed-container" class="hidden mb-6 p-6 bg-green-50 border border-green-200 rounded-lg text-center">
                     <h3 class="text-xl font-bold text-green-700 mb-2">🎉 Congratulations! 🎉</h3>
-                    <p class="text-green-700 mb-4">You've completed all AP Statistics topics including the capstone AP Exam FRQ 6!</p>
+                    <p class="text-green-700 mb-4">You've completed all AP Statistics topics including the capstone AP Exam FRQ 2!</p>
                     <button id="reset-progress-btn" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
                         Reset Progress
                     </button>
@@ -331,80 +331,116 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         // Define the PDF files and organize them by topic
         const pdfFiles = [
             { 
-                id: "4-8", 
-                name: "Topic 4-8", 
-                description: "Binomial and Geometric Random Variables",
-                questionPdf: "4-8mcq.pdf",
-                answersPdf: "4-8mcqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/qcoxl3r54z?sui=33,4",
+                id: "3-3", 
+                name: "Topic 3-3", 
+                description: "Random Sampling and Data Collection",
+                questionPdf: "3-3_Questions.pdf",
+                answersPdf: "3-3_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/0we2mcfcam?sui=33,3",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/ljd0cb2e7u?sui=33,3",
                 completed: false
             },
             { 
-                id: "4-9", 
-                name: "Topic 4-9", 
-                description: "Transforming and Combining Random Variables",
-                questionPdf: "4-9mcqfrq.pdf",
-                answersPdf: "4-9mcqfrqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/fr03ec4ajm?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/eekak8j8le?sui=33,4",
+                id: "3-5", 
+                name: "Topic 3-5", 
+                description: "Introduction to Experimental Design",
+                questionPdf: "3-5_Questions.pdf",
+                answersPdf: "3-5_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/k19v0dbk86?sui=33,3",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/z5lwfxjjdv?sui=33,3",
                 completed: false
             },
             { 
-                id: "5-5", 
-                name: "Topic 5-5", 
-                description: "Sampling Distributions for Means",
-                questionPdf: "5-5mcq.pdf",
-                answersPdf: "5-5mcqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/n68xwj4nrz?sui=33,5",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/3hds9p8qlq?sui=33,5",
+                id: "3-6", 
+                name: "Topic 3-6", 
+                description: "Selecting an Experimental Design",
+                questionPdf: "3-6_Questions.pdf",
+                answersPdf: "3-6_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/2ausyc2u4j?sui=33,3",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/01da23635a?sui=33,3",
                 completed: false
             },
             { 
-                id: "5-6", 
-                name: "Topic 5-6", 
-                description: "Central Limit Theorem",
-                questionPdf: "5-6mcqfrq.pdf",
-                answersPdf: "5-6mcqfrqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/hl9fyvkpih?sui=33,5",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/ik3wqrxnwg?sui=33,5",
+                id: "4-1", 
+                name: "Topic 4-1", 
+                description: "Introducing Statistics: Random and Non-Random Patterns",
+                videoUrl: "https://apclassroom.collegeboard.org/d/7vn9faj6p9?sui=33,4",
                 completed: false
             },
             { 
-                id: "6-4", 
-                name: "Topic 6-4", 
-                description: "Confidence Intervals for Proportions",
-                questionPdf: "6-4mcq.pdf",
-                answersPdf: "6-4mcqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/pde094fkxp?sui=33,6",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/mg1k959s5t?sui=33,6",
+                id: "5-7", 
+                name: "Topic 5-7", 
+                description: "Sampling Distributions for Sample Means",
+                questionPdf: "5-7_Questions.pdf",
+                answersPdf: "5-7_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/9a15613osy?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/em70n6vdbf?sui=33,5",
                 completed: false
             },
             { 
-                id: "6-5", 
-                name: "Topic 6-5", 
-                description: "Confidence Intervals for Means",
-                questionPdf: "6-5mcq.pdf",
-                answersPdf: "6-5mcqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/xkvphnx7qu?sui=33,6",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/crg48hjihw?sui=33,6",
+                id: "5-8", 
+                name: "Topic 5-8", 
+                description: "Sampling Distributions for Differences in Sample Means",
+                questionPdf: "5-8_Questions.pdf",
+                answersPdf: "5-8_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/vdhw7lx8zh?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/8tey1w8y00?sui=33,5",
                 completed: false
             },
             { 
-                id: "6-10", 
-                name: "Topic 6-10", 
-                description: "Selecting an Appropriate Inference Procedure",
-                questionPdf: "6-10mcq.pdf",
-                answersPdf: "6-10mcqAnswers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/ycy5l5nclj?sui=33,6",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/etzlkyzo8u?sui=33,6",
+                id: "7-6", 
+                name: "Topic 7-6", 
+                description: "Confidence Intervals for the Difference of Two Means",
+                questionPdf: "7-6_Questions.pdf",
+                answersPdf: "7-6_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/9i05oi3975?sui=33,7",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/q64qp5gkag?sui=33,7",
+                completed: false
+            },
+            { 
+                id: "7-7", 
+                name: "Topic 7-7", 
+                description: "Justifying a Claim About the Difference of Two Means Based on a Confidence Interval",
+                questionPdf: "7-7_Questions.pdf",
+                answersPdf: "7-7_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/rgaf9khpy1?sui=33,7",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/fbif6dujgq?sui=33,7",
+                completed: false
+            },
+            { 
+                id: "7-8", 
+                name: "Topic 7-8", 
+                description: "Setting Up a Test for the Difference of Two Population Means",
+                questionPdf: "7-8_Questions.pdf",
+                answersPdf: "7-8_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/kf1yd6gpdi?sui=33,7",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/9xskxlobvm?sui=33,7",
+                completed: false
+            },
+            { 
+                id: "7-9", 
+                name: "Topic 7-9", 
+                description: "Carrying Out a Test for the Difference of Two Population Means",
+                questionPdf: "7-9_Questions.pdf",
+                answersPdf: "7-9_Answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/2kkmkj7ric?sui=33,7",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/j22ffmh28e?sui=33,7",
+                completed: false
+            },
+            { 
+                id: "7-10", 
+                name: "Topic 7-10", 
+                description: "Skills Focus: Selecting, Implementing, and Communicating Inference Procedures",
+                videoUrl: "https://apclassroom.collegeboard.org/d/p1yut2e5pp?sui=33,7",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/dkerwbidln?sui=33,7",
                 completed: false
             },
             {
-                id: "exam-frq6",
-                name: "AP Exam FRQ 6",
-                description: "CAPSTONE: 2018 AP Exam Free Response Question 6",
-                questionPdf: "2018APExamFRQ6-Question.pdf",
-                answersPdf: "2018APExamFRQ6-Answer.pdf",
+                id: "exam-frq2",
+                name: "AP Exam FRQ 2",
+                description: "CAPSTONE: 2017 AP Exam Free Response Question 2",
+                questionPdf: "2017APFRQ2.pdf",
+                answersPdf: "2017APFRQ2Scoring.pdf",
                 isCapstone: true,
                 completed: false
             }
@@ -470,18 +506,30 @@ Thank you for helping me prepare for my AP Statistics exam!`;
                 </div>
                 <p class="text-gray-700 mb-3">${topic.description}</p>
                 <div class="flex flex-col gap-2">
+                    ${topic.questionPdf ? `
                     <a href="${topic.questionPdf}" target="_blank" class="flex items-center text-blue-600 hover:text-blue-800">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                         Download Questions PDF (for Grok)
                     </a>
+                    ` : ''}
+                    ${topic.answersPdf ? `
                     <a href="${topic.answersPdf}" target="_blank" class="flex items-center text-blue-600 hover:text-blue-800">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                         Download Answers PDF (for Grok)
                     </a>
+                    ` : ''}
+                    ${!topic.questionPdf && !topic.answersPdf ? `
+                    <div class="p-2 bg-blue-50 rounded text-blue-700 text-sm mb-2">
+                        <svg class="w-4 h-4 inline-block mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                        </svg>
+                        This topic has video content only (no practice PDFs)
+                    </div>
+                    ` : ''}
                     ${topic.videoUrl ? `
                     <a href="${topic.videoUrl}" target="_blank" class="flex items-center text-yellow-600 hover:text-yellow-800">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -584,7 +632,7 @@ Thank you for helping me prepare for my AP Statistics exam!`;
                 topicCardsContainer.classList.add('completed-state');
                 
                 // Find the capstone topic card and highlight it
-                const capstoneCard = document.getElementById(`topic-card-exam-frq6`);
+                const capstoneCard = document.getElementById(`topic-card-exam-frq2`);
                 if (capstoneCard) {
                     capstoneCard.classList.add('capstone-highlight');
                 }
@@ -600,7 +648,7 @@ Thank you for helping me prepare for my AP Statistics exam!`;
                 studyMaterialsTab.classList.remove('bg-green-50');
                 
                 // Remove capstone highlight
-                const capstoneCard = document.getElementById(`topic-card-exam-frq6`);
+                const capstoneCard = document.getElementById(`topic-card-exam-frq2`);
                 if (capstoneCard) {
                     capstoneCard.classList.remove('capstone-highlight');
                 }
@@ -1082,18 +1130,30 @@ Thank you for helping me prepare for my AP Statistics exam!`;
                     </div>
                     <p class="text-gray-700 mb-3">${currentTopic.description}</p>
                     <div class="flex flex-col gap-2">
+                        ${currentTopic.questionPdf ? `
                         <a href="${currentTopic.questionPdf}" target="_blank" download class="flex items-center text-blue-600 hover:text-blue-800 bg-white p-2 rounded border border-blue-200 hover:bg-blue-50">
                             <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                             </svg>
                             Download Questions PDF
                         </a>
+                        ` : ''}
+                        ${currentTopic.answersPdf ? `
                         <a href="${currentTopic.answersPdf}" target="_blank" download class="flex items-center text-blue-600 hover:text-blue-800 bg-white p-2 rounded border border-blue-200 hover:bg-blue-50">
                             <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                             </svg>
                             Download Answers PDF
                         </a>
+                        ` : ''}
+                        ${!currentTopic.questionPdf && !currentTopic.answersPdf ? `
+                        <div class="p-2 bg-blue-50 rounded text-blue-700 mb-2">
+                            <svg class="w-5 h-5 inline-block mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+                            </svg>
+                            This topic has video content only (no practice PDFs)
+                        </div>
+                        ` : ''}
                         ${currentTopic.videoUrl ? `
                         <a href="${currentTopic.videoUrl}" target="_blank" class="flex items-center text-yellow-600 hover:text-yellow-800 bg-white p-2 rounded border border-yellow-200 hover:bg-yellow-50">
                             <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1235,8 +1295,9 @@ Thank you for helping me prepare for my AP Statistics exam!`;
                 card.innerHTML = `
                     <div class="font-medium mb-2">${statusIcon}${topic.name}</div>
                     <div class="flex flex-col gap-1 text-xs">
-                        <a href="${topic.questionPdf}" target="_blank" download class="text-blue-600 hover:text-blue-800">Questions PDF</a>
-                        <a href="${topic.answersPdf}" target="_blank" download class="text-blue-600 hover:text-blue-800">Answers PDF</a>
+                        ${topic.questionPdf ? `<a href="${topic.questionPdf}" target="_blank" download class="text-blue-600 hover:text-blue-800">Questions PDF</a>` : ''}
+                        ${topic.answersPdf ? `<a href="${topic.answersPdf}" target="_blank" download class="text-blue-600 hover:text-blue-800">Answers PDF</a>` : ''}
+                        ${!topic.questionPdf && !topic.answersPdf ? `<span class="text-blue-500 italic">Video content only</span>` : ''}
                         ${topic.videoUrl ? `<a href="${topic.videoUrl}" target="_blank" class="text-yellow-600 hover:text-yellow-800">Video${topic.videoUrl2 ? ' 1' : ''}</a>` : ''}
                         ${topic.videoUrl2 ? `<a href="${topic.videoUrl2}" target="_blank" class="text-yellow-600 hover:text-yellow-800">Video 2</a>` : ''}
                     </div>
